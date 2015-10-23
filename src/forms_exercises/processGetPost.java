@@ -23,6 +23,7 @@ public class processGetPost extends HttpServlet {
 		PrintWriter out =response.getWriter();
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
+		String emailAddress = request.getParameter("emailAddress");
 
 		
 
@@ -34,7 +35,7 @@ public class processGetPost extends HttpServlet {
 		
 		out.println("<p>Hey "+ firstName + " " + lastName + "! Thanks for getting in touch! </p>");
 //		out.println("<p>Your date of birth is "+ day + " " + monthText + " "  + year + "! </p>");
-//		out.println("<p>Your email is "+ email + " </p>");
+		out.println("<p>Your email is "+ emailAddress + " </p>");
 		out.println("</body>");
 		
 	}
@@ -44,6 +45,7 @@ public class processGetPost extends HttpServlet {
 		PrintWriter out =response.getWriter();
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
+		String emailAddress = request.getParameter("emailAddress");
 
 		
 
@@ -55,7 +57,7 @@ public class processGetPost extends HttpServlet {
 		
 		out.println("<p>Hey "+ firstName + " " + lastName + "! Thanks for getting in touch! </p>");
 //		out.println("<p>Your date of birth is "+ day + " " + monthText + " "  + year + "! </p>");
-//		out.println("<p>Your email is "+ email + " </p>");
+		out.println("<p>Your email is "+ emailAddress + " </p>");
 		out.println("</body>");
 		
 	}
