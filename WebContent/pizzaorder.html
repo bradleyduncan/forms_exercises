@@ -6,8 +6,8 @@
 </head>
 	
 	<body bgcolor="#FDF5E6">
-		<h2 align="right">Pizza Order Form</h2>
-		<form action="processGetPost" method="POST">
+		<h2> Pizza Order Form</h2>
+		<form action="pizzaOrderProcessor" method="POST">
 		
 		Pizza: 
 		<select name="pizzaType">
@@ -26,7 +26,7 @@
 		  <option value="21">21 Inch (Fat Bastard)</option>
 		</select> 
 		
-		<br>Base
+		<br>Base:
 		<select name="pizzaBase">
 		<optgroup label="Standard">
 		  <option value="thin">Thin Crust</option>
@@ -38,17 +38,24 @@
 		  </optgroup>
 		</select> 
 			
-		<br>Toppings
-		<select multiple>
+		<br>Toppings:
+		<select multiple name="toppings">
 		  <option value="a">Topping 1</option>
 		  <option value="b">Topping 2</option>
 		  <option value="c">Topping 3</option>
 		</select>	
-
-
-
-
-		  <input type="email" name="emailAddress" value="example@example.com"><P>
+		
+		<br><br>First Name:
+			<input type="text" name="firstName" value="First Name">
+			
+		<br>Last Name:
+			<input type="text" name="lastName" value="Last Name">
+			
+			
+		<br>Email:
+		  <input type="email" name="emailAddress" value="example@example.com">
+		  
+		
 		  <input type="submit"> <!-- Press this button to submit form -->
 		</form>
 	</body>
