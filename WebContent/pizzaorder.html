@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	  <title>Pizza Order Form</title>
+</head>
+	
+	<body bgcolor="#FDF5E6">
+		<h2 align="right">Pizza Order Form</h2>
+		<form action="processGetPost" method="POST">
+		
+		Pizza: 
+		<select name="pizzaType">
+		  <option value="chicago">Chicago Style</option>
+		  <option value="york">New York Style</option>
+		  <option value="haven">New Haven Style</option>
+		  <option value="napoletana">Verace Pizza Napoletana Style</option>
+		</select> 
+		
+		<br>Size:
+		<select name="pizzaSize">
+		  <option value="7">7 Inch</option>
+		  <option value="9">9 Inch</option>
+		  <option value="12">12 Inch</option>
+		  <option value="14">14 Inch</option>
+		  <option value="21">21 Inch (Fat Bastard)</option>
+		</select> 
+		
+		<br>Base
+		<select name="pizzaBase">
+		<optgroup label="Standard">
+		  <option value="thin">Thin Crust</option>
+		  <option value="deep">Deep Pan</option>
+		  </optgroup>
+		  <optgroup label="Stuffed">
+		  <option value="thin-stuffed">Thin Crust: Stuffed Crust</option>
+		  <option value="deep-stuffed">Deep Pan: Stuffed Crust</option>
+		  </optgroup>
+		</select> 
+			
+		<br>Toppings
+		<select multiple>
+		  <option value="a">Topping 1</option>
+		  <option value="b">Topping 2</option>
+		  <option value="c">Topping 3</option>
+		</select>	
+
+
+
+
+		  <input type="email" name="emailAddress" value="example@example.com"><P>
+		  <input type="submit"> <!-- Press this button to submit form -->
+		</form>
+	</body>
+
+</html>
+
+
+
+
