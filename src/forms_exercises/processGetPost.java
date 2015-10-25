@@ -29,12 +29,9 @@ public class processGetPost extends HttpServlet {
 
 		
 		out.println("<!DOCTYPE html><html><head><meta charset=\"ISO-8859-1\"><title>Form Submitted!</title></head>");
-		out.println("<body bgcolor=\"#FFFFFF\">");
-		out.println("<h1 align=\"center\">GET Form Completed!</h1>");
-//		out.println("<body bgcolor=\"#FF0000\">");
-		
+		out.println("<body bgcolor=\"#FDF5E6\">");
+		out.println("<h1 align=\"right\">Registration Form: Completed</h1>");
 		out.println("<p>Hey "+ firstName + " " + lastName + "! Thanks for getting in touch! </p>");
-//		out.println("<p>Your date of birth is "+ day + " " + monthText + " "  + year + "! </p>");
 		out.println("<p>Your email is "+ emailAddress + " </p>");
 		out.println("</body>");
 		
@@ -51,8 +48,8 @@ public class processGetPost extends HttpServlet {
 
 		
 		out.println("<!DOCTYPE html><html><head><meta charset=\"ISO-8859-1\"><title>Form Submitted!</title></head>");
-		out.println("<body bgcolor=\"#FFFFFF\">");
-		out.println("<h1 align=\"center\">POST Form Completed!</h1>");
+		out.println("<body bgcolor=\"#FDF5E6\">");
+		out.println("<h1 align=\"right\">Registration Form: Completed</h1>");
 //		out.println("<body bgcolor=\"#FF0000\">");
 		
 		out.println("<p>Hey "+ firstName + " " + lastName + "! Thanks for getting in touch! </p>");

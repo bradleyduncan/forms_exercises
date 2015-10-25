@@ -12,15 +12,15 @@ import javax.servlet.http.*;
  *  coreservlets.com tutorials on servlets, JSP, Struts, JSF, Ajax, GWT, and Java</a>.
  */
 
-@WebServlet("/three-params")
-public class ThreeParams extends HttpServlet {
+@WebServlet("/ThreeParamsPost")
+public class ThreeParamsPost extends HttpServlet {
   @Override
-  public void doGet(HttpServletRequest request,
+  public void doPost(HttpServletRequest request,
                     HttpServletResponse response)
       throws ServletException, IOException {
     response.setContentType("text/html");
     PrintWriter out = response.getWriter();
-    String title = "Reading Three Request Parameters";
+    String title = "POST: Reading Three Request Parameters";
     String docType =
       "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " +
       "Transitional//EN\">\n";
