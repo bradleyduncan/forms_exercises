@@ -51,7 +51,7 @@ public class pizzaOrderProcessor extends HttpServlet {
 		out.println("<body>");
 		out.println("<h1>Pizza Order Confirmation</h1>");
 		out.println("<style>table, th, td {border: 1px solid black;</style>");
-		out.println("<table><tr><th>Pizza Type</th><th></th></tr><tr><td>Pizza Size</td><td></td></tr><tr><td>Base</td><td></td></tr><tr><td>Toppings</td><td></td></tr><tr><td>First Name</td><td></td></tr><tr><td>Last Name</td><td></td></tr><tr><td>Contact Number</td><td></td></tr></table>");
+		out.println("<table><tr><th>Pizza Type</th><th>" + pizzaType + "</th></tr><tr><td>Pizza Size</td><td>" + pizzaSize + "</td></tr><tr><td>Base</td><td></td></tr><tr>" + pizzaBase + "<td>Toppings</td><td>" + toppings + "</td></tr><tr><td>First Name</td><td><" + firstName + "/td></tr><tr><td>Last Name</td><td>" + lastName + "</td></tr><tr><td>Contact Number</td><td><" + phoneNumber + "/td></tr></table>");
 		out.println("</body>");
 		out.println("</html>");
 		
