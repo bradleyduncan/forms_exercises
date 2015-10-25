@@ -35,7 +35,7 @@ public class pizzaOrderProcessor extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+
 		response.setContentType("text/html");
 		PrintWriter out =response.getWriter();
 		String pizzaType = request.getParameter("pizzaType");
