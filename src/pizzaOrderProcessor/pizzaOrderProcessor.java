@@ -44,9 +44,9 @@ public class pizzaOrderProcessor extends HttpServlet {
 		String toppings = request.getParameter("toppings");
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
-		String emailAddress = request.getParameter("emailAddress");
+		String phoneNumber = request.getParameter("phoneNumber");
 		
-		System.out.println(pizzaType + " " + pizzaSize + " " + pizzaBase + " " +  toppings + " " +  firstName + " " + lastName + " " + emailAddress);
+		System.out.println(pizzaType + ", " + pizzaSize + ", " + pizzaBase + ", " +  toppings + ", " +  firstName + ", " + lastName + ", " + phoneNumber);
 		out.println("Test");
 		
 	}
